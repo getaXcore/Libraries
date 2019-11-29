@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/titleSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Libraries"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#00c4ff"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beta"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_below="@+id/titleSplash"
+        android:textColor="#00c4ff"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
